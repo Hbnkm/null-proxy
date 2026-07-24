@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Null - Web Proxy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌐 Null Proxy</h1>
+      <p class="subtitle">Access any website without restrictions</p>
+    </header>
+
+    <div class="content">
+      <div class="search-box">
+        <input 
+          type="text" 
+          id="urlInput" 
+          placeholder="Enter website URL (youtube.com, roblox.com, etc.)"
+          autocomplete="off"
+        >
+        <button onclick="navigateToProxy()">Access</button>
+      </div>
+
+      <div class="info">
+        <h2>Features:</h2>
+        <ul>
+          <li>✅ No iframe detection bypass</li>
+          <li>✅ Full streaming support (YouTube, etc.)</li>
+          <li>✅ WebSocket support for real-time apps</li>
+          <li>✅ Cookie & session management</li>
+          <li>✅ Works with most modern websites</li>
+        </ul>
+      </div>
+
+      <div id="proxyFrame"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
